@@ -1,0 +1,30 @@
+
+.footer{
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+   
+
+    h1{
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        max-width: 800px;
+        border-top:  1px solid gray;
+        padding: 20px 100px;
+        color: #D8D8D8;
+
+    }
+
+    @media (max-width: 768px){
+        hr{
+           font-size: 13px; 
+           max-width: 250px;
+           padding: 10px 50px;
+        }
+    }
+    
+}
